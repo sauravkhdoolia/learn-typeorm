@@ -10,14 +10,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/ws": "^4.0.1",
-    "nodemon": "^1.17.1",
-    "ts-node": "^5.0.1",
-    "tslint": "^5.9.1",
-    "tslint-config-prettier": "^1.9.0",
-    "typescript": "^2.7.2"
+    "@types/ws": "^7.2.6",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.9.7"
   },
   "dependencies": {
-    "graphql-yoga": "^1.4.3"
+    "graphql-yoga": "^1.18.3"
   }
 }
