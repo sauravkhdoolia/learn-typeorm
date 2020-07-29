@@ -1,23 +1,26 @@
 {
-  "name": "node-ts-graphql-boilerplate",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon --exec ts-node src/index.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/ws": "^7.2.6",
-    "nodemon": "^2.0.4",
-    "ts-node": "^8.10.2",
-    "tslint": "^6.1.2",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.9.7"
-  },
-  "dependencies": {
-    "graphql-yoga": "^1.18.3"
-  }
+   "name": "node-ts-graphql-boilerplate",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "@types/ws": "^7.2.6",
+      "nodemon": "^2.0.4",
+      "ts-node": "3.3.0",
+      "tslint": "^6.1.2",
+      "tslint-config-prettier": "^1.18.0",
+      "typescript": "3.3.3333",
+      "@types/node": "^8.0.29"
+   },
+   "dependencies": {
+      "graphql-yoga": "^1.18.3",
+      "typeorm": "0.2.25",
+      "reflect-metadata": "^0.1.10"
+   }
 }
